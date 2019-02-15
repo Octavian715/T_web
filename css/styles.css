@@ -1,0 +1,760 @@
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .top-section {
+        background: url('../images/bg-header.png') no-repeat top left;
+        background-size: cover;
+        width: 100%;
+        /*height: 620px;*/
+        display: block;
+        position: relative;
+        z-index: 0;
+    }
+
+    .top-section:before {
+        content: '';
+        background-color: rgb(0, 0, 0);
+        opacity: 0.349;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /*height: 620px;*/
+        z-index: -1;
+
+    }
+
+    .top-content {
+        display: block;
+    }
+
+    .top-content a {
+        display: block;
+        margin: 0 auto;
+        max-height: 65px;
+        max-width: 240px;
+    }
+
+    .service {
+        margin: 0;
+        padding: 0;
+    }
+
+    .body-article {
+        padding: 100px 0;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .container {
+        width: 732px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .container {
+        width: 952px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+.logo {
+    display: inline-flex;
+    flex: 1;
+
+    align-items: center;
+}
+
+.logo_set {
+
+
+    font-size: 25px;
+    font-family: "Cubano";
+    color: #fff;
+    /*color: rgb(70, 70, 70);*/
+    text-decoration: none;
+    text-transform: uppercase;
+
+    text-align: center;
+    transform: matrix(0.99346808019228, 0, 0, 0.99346808019228, 0, 0);
+
+    line-height: 29px;
+}
+
+.top-section {
+    background: url('../images/bg-header.png') no-repeat top left;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.top-section:before {
+    content: '';
+    background-color: rgb(0, 0, 0);
+    opacity: 0.349;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 620px;
+    z-index: -1;
+
+}
+
+nav {
+    padding: 11px 100px;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+nav a img {
+    padding-right: 10px;
+}
+
+nav ul {
+}
+
+nav ul li a img {
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    line-height: 2.278;
+    text-align: center;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1152px;
+    /*width: 100%;*/
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-content h4 {
+    font-size: 32px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 8px;
+
+}
+
+.top-content h2 {
+    font-size: 66px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.top-content a {
+
+    text-align: center;
+    text-decoration: none;
+    height: 65px;
+    width: 240px;
+    font-size: 23px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+
+}
+
+.top-content a:hover {
+    color: #000000;
+    transition: ease-in-out 0.5ms;
+
+}
+
+.top-content a:hover span {
+    background-color: #ffffff;
+    transition: ease-in 1ms;
+    border: 2px solid #000;
+}
+
+.top-content a span {
+    padding: 14px 65px;
+    border: 2px solid #fff;
+}
+
+.service {
+}
+
+.title-aticle {
+    font-size: 60px;
+    font-family: "Brandon Grotesque";
+    color: rgb(34, 34, 34);
+    line-height: 1.25;
+    text-align: left;
+
+}
+
+.body-article {
+    display: inline-flex;
+}
+
+.title-aticle span {
+    font-weight: bolder;
+}
+
+.w52 {
+    width: 52%;
+    padding: 0 15px;
+}
+
+.devbg {
+    display: block;
+    background: url('../images/devbg.png') no-repeat top right;
+    /*background-size: contain;*/
+    margin: 10px 0;
+    padding: 0 15px;
+    width: 100%;
+    height: 240px
+}
+
+.userbg {
+    display: block;
+    background: url('../images/user.png') no-repeat top left;
+    /*background-size: contain;*/
+    margin: 10px 0;
+    padding: 0 15px;
+    width: 100%;
+    height: 240px
+}
+
+.user {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+}
+
+
+.w48 {
+    width: 40%;
+    padding: 0 15px;
+}
+
+.skills {
+    padding: 50px 0;
+}
+
+.description {
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(119, 119, 119);
+    line-height: 1.333;
+    text-align: left;
+}
+
+.description p {
+    margin: 20px 0;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 15px;
+
+}
+
+.card-user {
+    display: inline-flex;
+}
+
+.card-body {
+    display: inline-flex;
+    padding: 50px 0 50px 40px;
+}
+
+
+.card-info {
+    padding-left: 20px;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.icon {
+    position: relative;
+    min-width: 72px;
+    min-height: 72px;
+    border-radius: 50%;
+    background-color: rgb(34, 34, 34);
+    width: 72px;
+    height: 72px;
+}
+
+.human:after {
+
+    content: '';
+    position: absolute;
+    top: 20%;
+    transform: translateX(115%);
+    background: url("../images/icon/Person-Icon.png") no-repeat top center;
+    width: 22px;
+    height: 46px;
+
+}
+
+.web:after {
+
+    content: '';
+    position: absolute;
+    top: 25%;
+    transform: translateX(45%);
+    background: url("../images/icon/Browser-Icon.png") no-repeat top center;
+    width: 39px;
+    height: 34px;
+
+}
+
+.mobile:after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    transform: translateX(50%);
+    background: url("../images/icon/iPad-Icon.png") no-repeat top center;
+    width: 36px;
+    height: 36px
+}
+
+.video:after {
+    content: '';
+    position: absolute;
+    top: 32%;
+    transform: translateX(50%);
+    background: url("../images/icon/Video-Icon.png") no-repeat top center;
+    width: 39px;
+    height: 26px;
+}
+
+.camera:after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    transform: translateX(59%);
+    background: url("../images/icon/Camera.png") no-repeat top center;
+    width: 33px;
+    height: 29px;
+}
+
+.star:after {
+    content: '';
+    position: absolute;
+    top: 21%;
+    transform: translateX(44%);
+    background: url("../images/icon/Star-Icon.png") no-repeat top center;
+    width: 39px;
+    height: 39px;
+}
+
+
+.title-card {
+
+    font-size: 22px;
+    font-family: "Brandon Grotesque";
+    color: rgb(34, 34, 34);
+    line-height: 1.2;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.description-card {
+
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(119, 119, 119);
+    line-height: 1;
+    text-align: left;
+    padding-right: 152px;
+
+}
+
+.clients {
+    padding: 150px 0 50px 0;
+}
+
+.clients .body-article {
+    display: inline;
+}
+
+.clients .title-aticle {
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 22px;
+    font-family: "Brandon Grotesque";
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.client:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -45px;
+    top: 75px;
+    width: 0;
+    height: 0;
+}
+
+.client:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -45px;
+    top: 75px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-right-color: white;
+}
+
+.client_r:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 75px;
+    width: 0;
+    height: 0;
+}
+
+.client_r:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 75px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-left-color: white;
+}
+
+.feedback {
+    font-size: 26px;
+    font-family: "Brandon Grotesque";
+    color: rgb(119, 119, 119);
+    line-height: 1.077;
+
+}
+
+.client {
+    margin: 35px 45px;
+    background-color: white;
+    border: 2px solid #f3f3f3;
+    position: relative;
+    padding: 40px 140px;
+}
+
+.client_r {
+    margin: 35px 45px;
+    background-color: white;
+    border: 2px solid #f3f3f3;
+    position: relative;
+    padding: 40px 140px;
+}
+
+
+.client_name {
+    font-size: 20px;
+    font-family: "Brandon Grotesque";
+    color: rgb(118, 144, 197);
+    line-height: 1.8;
+}
+
+.icon-user {
+    max-width: 235px;
+    max-height: 235px;
+    width: 235px;
+    height: 235px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(17, 17, 17);
+
+}
+
+.logos_inline {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.team {
+    background: #111111;
+    height: 800px;
+    width: 100%;
+}
+
+.team .row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team .sub-title {
+    margin: 0;
+}
+
+.team .body-article {
+    display: block;
+    padding: 90px 0 70px;
+}
+
+.team .title-aticle {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*.col-4 {*/
+/*padding: 0 15px;*/
+/*width: 33.3%;*/
+/*}*/
+
+.membr_image img {
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+}
+
+.mem_title {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.mem_data {
+    padding: 26px 0 13px;
+}
+
+.social li a {
+    display: block;
+    background: #111111;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin: 0 4px;
+    border: 4px solid #ffffff;
+}
+
+.social li a i {
+    color: #ffffff;
+    margin: 13px 14px;
+}
+
+i .fa-twitter:hover {
+    background: #00aced;
+}
+
+i .fa-facebook-f:hover {
+    background: #3b5998;
+}
+
+i .fa-pinterest-p:hover {
+    background: #cb2028;
+}
+
+.mem_name, .mem_title {
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.team .feedback {
+    font-size: 20px;
+    font-family: "Brandon Grotesque";
+    color: rgb(235, 235, 235);
+    line-height: 1.2;
+    text-align: center;
+    margin: 50px 250px;
+
+}
+
+.social ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+}
+
+.contact {
+    background-color: rgb(118, 144, 197);
+    height: 640px;
+}
+
+.contact .skills {
+    padding: 100px 0;
+}
+
+.contact .body-article {
+    display: block;
+    padding: 0;
+}
+
+.contact .title-aticle, .contact .sub-title {
+    color: white;
+}
+
+.contact .sub-title {
+
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding: 0 60px 0 0;
+    margin-bottom: 0;
+}
+
+.contact .row {
+    display: flex;
+}
+
+.contact input, textarea {
+    display: block;
+    width: 100%;
+    padding: 14px 20px 15px;
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(187, 187, 187);
+    line-height: 1.2;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+a, input, button {
+    outline: none;
+}
+
+.contact textarea {
+    overflow: hidden;
+    outline: none;
+    resize: none;
+}
+
+.email {
+    margin: 30px 0 20px;
+}
+
+.contact-data {
+    padding: 0 !important;
+}
+
+.contact-data li {
+    display: flex;
+}
+
+.contact-data a {
+    display: flex;
+    font-size: 18px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.contact-data ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.contact-data li span {
+    align-self: center;
+    padding-right: 10px;
+}
+
+.mail {
+    display: inline-block;
+    background: url("../images/icon/Mail-Icon.png") no-repeat left center;
+    width: 28px;
+    height: 18px;
+}
+
+.phone {
+    display: inline-block;
+    background: url("../images/icon/Mobile-Icon.png") no-repeat left center;
+    width: 28px;
+    height: 29px;
+}
+
+.g {
+    display: inline-block;
+    background: url("../images/icon/Google.png") no-repeat left center;
+    width: 28px;
+    height: 27px;
+}
+
+.tw {
+    display: inline-block;
+    background: url("../images/icon/Twitter-Icon.png") no-repeat left center;
+    width: 28px;
+    height: 22px;
+}
+
+.fb {
+    display: inline-block;
+    background: url("../images/icon/Facebook-Icon.png") no-repeat left center;
+    width: 28px;
+    height: 27px;
+}
+
+.p {
+    display: inline-block;
+    background: url("../images/icon/Pinterest-Icon.png") no-repeat left center;
+    width: 28px;
+    height: 31px;
+}
+
+.footer p {
+
+    font-size: 16px;
+    font-family: "Brandon Grotesque";
+    color: rgb(255, 255, 255);
+    line-height: 1.375;
+    text-align: center;
+    margin: 30px 0;
+}
